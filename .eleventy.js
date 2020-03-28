@@ -1,5 +1,12 @@
 module.exports = function (config) {
 
+   // config.setBrowserSyncConfig({
+   //    https: {
+   //       key: '/etc/localhost.key',
+   //       cert: '/etc/localhost.crt'
+   //    }
+   // });
+
    config.addPassthroughCopy("src/js");
 
    return {
@@ -9,7 +16,4 @@ module.exports = function (config) {
          data: "_data",
       }
    };
-
 };
-
-// 07908b01793347ae80869e52b2c3f998
